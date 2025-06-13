@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<link rel="stylesheet" href="style.css">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atividades Extracurriculares - Unasp</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="#" method="POST">
+    <form id="formAtividade" method="POST">
         <h2>Atividades Extracurriculares - Unasp</h2>
 
         <label for="titulo">Digite seu nome</label><br />
         <input type="text" id="titulo" name="titulo" placeholder="Digite seu nome" required /><br /><br />
 
-        <label for="Digite a data ">Data</label><br />
+        <label for="data">Data</label><br />
         <input type="date" id="data" name="data" required /><br /><br />
 
         <label for="status">Status</label><br />
-        <select id="status" name="status" required>
-            <option value="" disabled selected>Selecione o status</option>
-            <option value="ativa">Futebol</option>
-            <option value="inativa">Basquete</option>
-            <option value="pendente">Handebol</option>
-            <option value="pendente">Xadrez</option>
-            <option value="pendente">Outros...</option>
-        </select><br /><br />
+      <select id="status" name="status" required>
+    <option value="" disabled selected>Selecione o status</option>
+    <option value="Futebol">Futebol</option>
+    <option value="Basquete">Basquete</option>
+    <option value="Handebol">Handebol</option>
+    <option value="Xadrez">Xadrez</option>
+    <option value="Outros">Outros...</option>
+</select>
+<br /><br />
 
         <button type="submit">Salvar Atividade</button>
     </form>
-    </script>
+
     <script src="script.js"></script>
-</script>
 </body>
 </html>
